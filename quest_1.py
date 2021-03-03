@@ -1,0 +1,6 @@
+name = input("Введите ваше имя: ")
+surname = input("Введите вашу фамилию: ")
+var = int(input("Введите номер варианта: "))
+quest = int(input("Введите номер задания: "))
+answ = int(input("Введите ответ: "))
+print(f"{name} {surname} выполнил варианат {var}. В задании {quest} ответ {answ}.")
